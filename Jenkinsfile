@@ -1,7 +1,4 @@
-pipeline {
-	agent {
-	tool name: 'maven', type: 'maven'
-      }
+
        stages{
         
         stage('Git Clone or Pull'){
