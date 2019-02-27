@@ -1,9 +1,6 @@
 pipeline {
-    agent {
-		label 'rhel'
-	}
     
-    stages{
+       stages{
         
         stage('Git Clone or Pull'){
             
