@@ -1,4 +1,7 @@
-
+pipeline {
+	agent {
+		label 'CentOS'
+	}
        stages{
         
         stage('Git Clone or Pull'){
